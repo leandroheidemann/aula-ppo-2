@@ -2,10 +2,10 @@ package net.unibave.ppo;
 
 public class Lampada {
 
-    private int voltagem;
-    private int potencia;
-    private String cor;
-    private int luminosidade;
+    private final int voltagem;
+    private final int potencia;
+    private final String cor;
+    private final int luminosidade;
     private boolean ligada = false;
 
     public Lampada(int voltagem, int potencia, String cor, int luminosidade) {
